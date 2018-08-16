@@ -1,0 +1,40 @@
+---
+title: "Transforming Health and Social Care Publications in Scotland"
+author: "Anna Price and David Caldwell, Information Services Division, NHS Scotland"
+date: "September 4, 2018"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Talk Outline
+
+- Background
+- Vision
+- User Engagement
+- Minimum Viable Product
+- User Feedback and Testing
+- Next Steps
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
