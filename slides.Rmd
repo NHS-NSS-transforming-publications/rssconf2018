@@ -116,38 +116,38 @@ include_graphics("images/rap.png")
 ## Thank You {.smaller}
 <div class="columns-2">
 <ul>
-```{r out.width = "40%"}
+```{r out.width = "35%"}
 include_graphics("images/Anna_Avatar.jpg")
 ```
 <br>
-```{r out.width = "12%"}
+```{r out.width = "10%"}
 include_graphics("images/twitter.png")
 ```
 @price_AH
 <br>
-```{r out.width = "12%", }
+```{r out.width = "10%", }
 include_graphics("images/github.png")
 ```
 annahprice
 </ul>
 <ul>
-```{r out.width = "40%"}
+```{r out.width = "35%"}
 include_graphics("images/David_Avatar.jpg")
 ```
 <br>
-```{r out.width = "12%"}
+```{r out.width = "10%"}
 include_graphics("images/twitter.png")
 ```
 @KingTyjet92
 <br>
-```{r out.width = "12%"}
+```{r out.width = "10%"}
 include_graphics("images/github.png")
 ```
 davidc92
 </ul>
 </div>
 
-```{r out.width = "30%"}
+```{r out.width = "60%", fig.align='center'}
 include_graphics("images/team.png")
 ```
 
