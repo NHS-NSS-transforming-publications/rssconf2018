@@ -1,40 +1,162 @@
 ---
-title: "Transforming Health and Social Care Publications in Scotland"
-author: "Anna Price and David Caldwell, Information Services Division, NHS Scotland"
-date: "September 4, 2018"
+title: "Transforming Health <br> and Social Care <br> Publications in Scotland"
+subtitle: "RSS Conference 2018"
+author: 'Anna Price and David Caldwell <br> Information Services Division, NHS Scotland <br>'
+date: "September 4, 2018 <br><br> Slides: https://github.com/NHS-NSS-transforming-publications/rssconf2018"
 output:
-  ioslides_presentation: default
-  beamer_presentation: default
+  ioslides_presentation:
+    css: my-theme.css
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Talk Outline
+## Background
 
-- Background
-- Vision
-- User Engagement
-- Minimum Viable Product
-- User Feedback and Testing
-- Next Steps
+- The Information Services Division (ISD) of NHS Scotland has a long history of producing official and national statistics. 
+- We produce around 200 publications each year.
+- Traditional publication format is a **static pdf document** with accompanying **excel tables**.
+- Production uses **proprietary software** and is **time-consuming**, involving extensive manual formatting and checking.
 
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
+```{r out.width = "40%", fig.align = 'center'}
+include_graphics("images/pdf report.png")
 ```
 
-## Slide with Plot
+## Vision
 
-```{r pressure}
-plot(pressure)
+```{r out.width = "75%", fig.align = 'center'}
+include_graphics("images/VisionPoster.png")
 ```
+
+## Initial User Engagament
+
+- Focus groups and interviews with over 10 different user groups.
+- Determined user experiences of existing product and how the new product deisgn could meet their needs.
+
+```{r out.width = "90%", fig.align = 'center'}
+include_graphics("images/user engagement.png")
+```
+
+## Personas
+
+```{r out.width = "50%"}
+include_graphics("images/monifa.png")
+include_graphics("images/rose.png")
+```
+
+- High-level user groups:
+    - Curious
+    - Focused
+    - Detailed
+    - Diggers
+
+## Minimum Viable Product (MVP)
+
+- [Acute Hospital Activity and Beds publication](http://www.isdscotland.org/Health-Topics/Hospital-Care/Publications/2018-06-26/Acute-Hospital-Publication/) released in December 2017.
+
+```{r out.width = "75%", fig.align = 'center'}
+include_graphics("images/acute activity.png")
+```
+
+## MVP: Data summary
+
+```{r out.width = "80%", fig.align = 'center'}
+include_graphics("images/data summary.png")
+```
+
+## MVP: Trend data
+
+```{r out.width = "75%", fig.align = 'center'}
+include_graphics("images/trend data.png")
+```
+
+## MVP: Data explorer
+
+```{r out.width = "85%", fig.align = 'center'}
+include_graphics("images/data explorer.png")
+```
+
+## MVP: Data files
+
+```{r out.width = "80%", fig.align = 'center'}
+include_graphics("images/data files.png")
+```
+
+## MVP: Further Information
+
+```{r out.width = "95%", fig.align = 'center'}
+include_graphics("images/extras.png")
+```
+
+- Includes:
+    - metadata
+    - methods and data quality issues
+    - link to GitHub repo with data explorer code
+    - feedback form and contact details
+
+## User Feedback and Testing
+
+```{r out.width = "85%", fig.align = 'center'}
+include_graphics("images/quotes.png")
+```
+
+## Next Steps
+
+- **Psychiatric Hospital Activity publication** to be released 25 September 2018.
+- **Thematic** approach to publications.
+- Re-design of [Data quality](https://www.isdscotland.org/Health-Topics/Hospital-Care/Publications/2018-06-26/Acute-Hospital-Publication/data-quality/) page.
+- Automate production process ([Reproducible Analytical Pipeline](https://ukgovdatascience.github.io/rap_companion/)).
+
+```{r out.width = "60%", fig.align = 'center'}
+include_graphics("images/rap.png")
+```
+
+## Thank You {.smaller}
+<div class="columns-2">
+<ul>
+```{r out.width = "40%"}
+include_graphics("images/Anna_Avatar.jpg")
+```
+<br>
+```{r out.width = "12%"}
+include_graphics("images/twitter.png")
+```
+@price_AH
+<br>
+```{r out.width = "12%", }
+include_graphics("images/github.png")
+```
+annahprice
+</ul>
+<ul>
+```{r out.width = "40%"}
+include_graphics("images/David_Avatar.jpg")
+```
+<br>
+```{r out.width = "12%"}
+include_graphics("images/twitter.png")
+```
+@KingTyjet92
+<br>
+```{r out.width = "12%"}
+include_graphics("images/github.png")
+```
+davidc92
+</ul>
+</div>
+
+```{r out.width = "30%"}
+include_graphics("images/team.png")
+```
+
+Acute Activity publication: https://bit.ly/2PhLYbL
+
+Transforming Publishing on GitHub: <br> https://github.com/NHS-NSS-transforming-publications
+
+ISD on GitHub: https://github.com/Health-SocialCare-Scotland
+
+ISD on Twitter: @NHSNSS
+
 
