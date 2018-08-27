@@ -33,7 +33,7 @@ include_graphics("images/VisionPoster.png")
 ## Initial User Engagament
 
 - Focus groups and interviews with over 10 different user groups.
-- Determined user experiences of existing product and how the new product deisgn could meet their needs.
+- Determined user experiences of existing product and how the new product design could meet their needs.
 
 ```{r out.width = "90%", fig.align = 'center'}
 include_graphics("images/user engagement.png")
