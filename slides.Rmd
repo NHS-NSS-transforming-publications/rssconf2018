@@ -138,7 +138,7 @@ include_graphics("images/David_Avatar.jpg")
 ```{r out.width = "10%"}
 include_graphics("images/twitter.png")
 ```
-@KingTyjet92
+@Tyjet92
 <br>
 ```{r out.width = "10%"}
 include_graphics("images/github.png")
@@ -147,16 +147,15 @@ davidc92
 </ul>
 </div>
 
-```{r out.width = "60%", fig.align='center'}
+```{r out.width = "70%", fig.align='center'}
 include_graphics("images/team.png")
 ```
 
 Acute Activity publication: https://bit.ly/2PhLYbL
 
+Contact Transforming Publishing: nss.isdtransformingpublishing@nhs.net
+
 Transforming Publishing on GitHub: <br> https://github.com/NHS-NSS-transforming-publications
 
 ISD on GitHub: https://github.com/Health-SocialCare-Scotland
-
-ISD on Twitter: @NHSNSS
-
 
